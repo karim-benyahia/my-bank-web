@@ -4,6 +4,6 @@
     "goal": "install"
   },
   "deploy": {
-    "jarName": "build/my-bank-web.jar"
+    "jarName": "target/my-bank-web.jar"
   }
 }
