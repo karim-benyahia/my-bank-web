@@ -1,0 +1,26 @@
+{
+  "name": "my-bank-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build --public-url / -d ./target/classes/public ./src/main/resources/public/index.html",
+    "start-dev": "parcel --public-url / -d ./target/classes/public ./src/main/resources/public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://karim-benyahia@github.com/karim-benyahia/my-bank-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karim-benyahia/my-bank-web/issues"
+  },
+  "homepage": "https://github.com/karim-benyahia/my-bank-web#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "react": "17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
